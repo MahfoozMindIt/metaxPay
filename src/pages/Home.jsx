@@ -6,6 +6,7 @@ import Slider from '../components/slider/Slider'
 import Swiper from '../components/Swiper'
 import Section3 from '../components/thirdSection/Section3'
 import Section2 from '../components/2ndSection/Section2'
+import Section4 from '../components/4rthSection/Section4'
 
 const Home = () => {
  
@@ -13,7 +14,7 @@ const Home = () => {
     <section className='font-primary'>
     <div className=' banner   text-white '>
     <div className=' pt-28 px-32'>
-  <div className='text-[110px]   leading-28 font-extrabold'>
+  <div className='text-[90px]   leading-28 font-extrabold'>
   <h1>
         
         SPEND CRYPTO
@@ -30,12 +31,12 @@ const Home = () => {
 Seamless payment with your cryptocurrencies</p>
 
 <div className='mt-16'>
-    <button className='text-xl bg-black rounded-full px-10 py-3'>
+    <button className='text-xl bg-white text-black rounded-full px-10 py-3'>
         Get the app
     </button>
 </div>
     </section>
-    <section>
+    <section className='hidden'>
 <p className='text-[17px] font-medium'>Total Balance</p>
 <h2 className='text-4xl'>$ 3,868.24</h2>
 
@@ -90,6 +91,7 @@ Accepted by 130M+ merchants worldwide
 
 <main className='w-[100%]'>
     <Section3/>
+    <Section4/>
 </main>
 
     </section>
