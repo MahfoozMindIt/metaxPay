@@ -1,0 +1,41 @@
+.mySwiper {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .slide-content {
+    width: 302px;
+    height: 423px;
+    border-radius: 7%;
+  }
+  
+.bg1{
+    background: url("../assets/bg1.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bg2{
+    background: url("../assets/bg2.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bg3{
+    background: url("../assets/bg3.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bg4{
+    background: url("../assets/bg4.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bg5{
+    background: url("../assets/bg5.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

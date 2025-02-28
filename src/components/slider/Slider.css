@@ -1,0 +1,29 @@
+.slider {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slider-track {
+    display: flex;
+    width: max-content; /* shrink-wrap the content */
+    animation: scrollTrack 50s linear infinite;
+    gap: 100px;
+  }
+  
+  @keyframes scrollTrack {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      /* Adjust this value to match half the total width of your track */
+      transform: translateX(-50%);
+    }
+  }
+  
+  .item {
+    flex: 0 0 auto;
+    padding: 0 2rem;
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+  

@@ -1,0 +1,40 @@
+.banner{
+background: url('../assets/home.webp');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+/* .firstCard {
+    position: relative;
+     animation: example 2s; 
+     animation-delay: 5s; 
+    right: 700px;
+  }
+  
+  @keyframes example {
+    25%  { right:700px; top:0px;}
+    100% { right:1px; top:0px;}
+  }
+  .secondSection{
+    overflow-x: hidden;
+  }
+  .secondCard {
+    position: relative;
+    animation: example3 1s ease-in-out 0s forwards;
+    animation-delay: 5s; 
+    bottom: 470px;
+  }
+
+  .secondcardBefore{
+    
+    position: relative;
+    
+    bottom: 470px; 
+  }
+  
+  @keyframes example3 { 
+  25%  { right:700px; top:0px;}
+  100% { right:0px; top:0px;}
+  } */
